@@ -1,0 +1,47 @@
+/* body{
+  margin: 0;
+  padding: 0;
+}
+body.main{
+  width: 400px;
+  height: 400px;
+} */
+
+/* .main{
+    width: 700px;
+    height: 1145px;
+    top: 198px;
+    left: 370px;
+    border-radius: 40px;
+    background-color: #f3ebf6;
+
+} */
+
+:root{
+  --body_background:#f3ebf6;
+
+}
+.app{
+  width: 1170px;
+  height: 700px;
+  padding: 50px;
+}
+.switch {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .switch label {
+    margin: 10px;
+  }
+
+  #light {
+    background-color: #f3ebf6;
+  }
+  
+  #dark {
+    background-color: #46045e;
+  }
